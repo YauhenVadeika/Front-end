@@ -1,0 +1,160 @@
+#header {
+    background-image: url(background_header.jpg);
+    background-size: cover;
+    height: 100px;
+}
+
+#heder-logo {
+    background-image: url(Logo.png);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 90px;
+    top: 35px;
+}
+
+#header-text {
+    margin-left: 180px;
+    padding-top: 20px;
+    color: #9ce0ef
+
+}
+
+#content {
+    background-image: url(background_content.jpg);
+    background-size: cover;
+    height: 727px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#content-left {
+    background-image: url(backgraund_content_left.png);
+    background-size: cover;
+    height: 727px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cotentleft-portflinks {
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-family: Times New Roman;
+    font-weight: bolder;
+    color: #fffffff2;
+    text-shadow: 3px 3px 2px #2b251e;
+}
+
+.contentleft-decor {
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+    color: #fffffff2;
+    font-size: 25px;
+    text-shadow: 3px 3px 2px #2b251e;
+}
+
+a:hover {
+    color: #baad9e;
+}
+
+#contentleft-size {
+    padding-bottom: 220px;
+}
+
+#contfont-size {
+    line-height: 67px;
+    font-size: 35px;
+    margin-top: 60px;
+    padding-left: 15px;
+    font-family: cursive;
+    color: rgb(24 24 22 / 77%);
+    text-shadow: 3px 3px 4px #5f5e5e;
+}
+
+
+#content-center {
+    background-image: url(Minion.png);
+    background-size: cover;
+    height: 470px;
+    width: 340px;
+    margin-top: 60px;
+    margin-left: 5px;
+    border-radius: 40px;
+    box-shadow: 11px 9px 16px 8px #484139;
+    border: 5px solid #bababa;
+}
+
+
+#content-right {
+    background-image: url(backgraund_content_right.png);
+    background-size: cover;
+    height: 727px;
+    width: 400px;
+}
+
+#footer {
+    background-image: url(background_header.jpg);
+    background-size: cover;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+#footer-menu {
+    color: #9ce0ef;
+}
+
+#footer-name {
+    padding-top: 15px;
+    padding-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#footer-techname {
+    margin-top: 10px;
+    padding-left: 80px;
+    margin-bottom: 0px;
+}
+
+#footer-techskill {
+    margin-top: 0px;
+    padding-left: 80px;
+}
+
+#footer-ITAcademy {
+    color: #9ce0ef;
+    margin-left: 1400px;
+    font-family: none;
+    font-size: smaller;
+}
+
+.style-form {
+    color: #fffffff2;
+    text-shadow: 3px 3px 2px #2b251e;
+    margin-left: 30px;  
+}
+
+.form-sizes {
+    height: 30px;
+    width: 250px;
+}
+
+#tab-comments {
+    min-width: 250px;
+    min-height: 140px;
+    max-height: 160px; 
+    max-width: 250px;
+}
+
+#submit {
+    width: 100px;
+    height: 30px;
+}
